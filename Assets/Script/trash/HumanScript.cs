@@ -43,8 +43,8 @@ public class HumanScript : MonoBehaviour {
                 if (gameObject.tag == "h2")
                 {
                     m = Random.Range(13f, 33f);
-                    if (n <= 45) { gameObject.transform.eulerAngles = new Vector3(0f, 0f, 0f); pos.x = 130f; }
-                    else { gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f); pos.x = 790f; }
+                    if (n <= 45) { gameObject.transform.eulerAngles = new Vector3(0f, 0f, 0f); pos.x = 125f; }
+                    else { gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f); pos.x = 820f; }
                     gameObject.transform.position = new Vector3(pos.x, m*10f, pos.z);
 
                 }

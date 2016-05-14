@@ -3,6 +3,8 @@ using System.Collections;
 
 public class Musordetector : MonoBehaviour {
     GameObject musor;
+    public static int litterDel = 0;
+    public static int litterMiss = 0;
 
 
 
@@ -11,7 +13,8 @@ public class Musordetector : MonoBehaviour {
        if (mus.gameObject.tag == "Musor") {
             Debug.Log("wsef");
             musor = mus.gameObject;
-            Destroy(musor); 
+            Destroy(musor);
+            litterDel++;
          }
     }
 
