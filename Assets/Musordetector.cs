@@ -3,19 +3,16 @@ using System.Collections;
 
 public class Musordetector : MonoBehaviour {
     GameObject musor;
+
+
+
     void OnTriggerEnter2D(Collider2D mus)
     {
-       if (mus.tag == "Musor") {
-        
-        Debug.Log("I DESTROY");
+       if (mus.gameObject.tag == "Musor") {
+            Debug.Log("wsef");
             musor = mus.gameObject;
-            Invoke("Destroyer", 0.3f);
-
-            
-
+            Destroy(musor); 
          }
     }
-    void Destroyer() {
-        Destroy(musor);
-    }
+
 }

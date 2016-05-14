@@ -48,8 +48,10 @@
      <Compile Include="Assets\Draggable.cs" />
      <Compile Include="Assets\HumanLittering.cs" />
      <Compile Include="Assets\Musordetector.cs" />
-     <Compile Include="Assets\Script\DestroyHumanScript.cs" />
-     <Compile Include="Assets\Script\HumanScript.cs" />
+     <Compile Include="Assets\Script\trash\DestroyScript.cs" />
+     <Compile Include="Assets\Script\trash\HumanScript.cs" />
+     <Compile Include="Assets\Script\trash\LitterScript.cs" />
+     <Compile Include="Assets\Script\trash\weaponScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Games/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
