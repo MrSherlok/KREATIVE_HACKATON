@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerStandUp : MonoBehaviour {
 	public float z;
+	Animator ani;
 	// Use this for initialization
 	 void StandUp () {
 		
