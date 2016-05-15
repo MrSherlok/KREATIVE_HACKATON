@@ -29,13 +29,16 @@ public class GameButtonsScript : MonoBehaviour {
         {
             lvl1Score.text = "You are won"; 
             ScoreScript.mainScore += 100;
+            ScoreScript.m1 = true;
             Invoke("Load", 1f);
         }
         lvl2Score.text = "Score miss: " + Musordetector.litterMiss.ToString();
         if (Musordetector.litterMiss >= 5)
         {
-            lvl2Score.text = "You are dead"; 
+            lvl2Score.text = "You are dead";
+            ScoreScript.m1 = false;
             Invoke("Load", 1f);
+            
         }
 
         
@@ -44,7 +47,8 @@ public class GameButtonsScript : MonoBehaviour {
     {
         _q = Random.Range(0, 3);
         Time.timeScale = 1;
-        Application.LoadLevel("0"+_q.ToString());
-        
+        // Application.LoadLevel("0"+_q.ToString());
+        Application.LoadLevel("02");
+
     }
 }

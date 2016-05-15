@@ -16,12 +16,18 @@ public class PlayerStandUp : MonoBehaviour {
 		Debug.Log ("I STAND UP!");
 		if (z > 2.4) {
 			Debug.Log (" You Won");
+            
 			score = 100;
-		}
+            ScoreScript.mainScore += 100;
+            ScoreScript.m2 = true;
+            Application.LoadLevel("GoodScene");
+        }
 		if (z < 2.4) {
 			Debug.Log ("You Lose");
-			score = 0;
-		}
+			ScoreScript.mainScore += 0;
+            ScoreScript.m2 = false;
+            Application.LoadLevel("SadScene");
+        }
 	}
 	void Update(){
 		z = Playermiss.a;

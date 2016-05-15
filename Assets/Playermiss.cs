@@ -12,7 +12,7 @@ public class Playermiss : MonoBehaviour {
 	float itsyoutime;
 
 	void Start(){
-		Spawn ();
+		Invoke("Spawn",3);
 	}
 	void OnTriggerEnter2D(Collider2D end)
 	{
@@ -25,15 +25,19 @@ public class Playermiss : MonoBehaviour {
 		if (end.tag == "Babka") {
 
 			Debug.Log ("False");
+            Debug.Log("You Lose");
+            ScoreScript.mainScore += 0;
+            ScoreScript.m2 = false;
+            Application.LoadLevel("SadScene");
 
 
 
-		}
+        }
 	}
 	public void Spawn () {
 
 
-		a = Random.Range(0f,4f);
+		a = Random.Range(0f,3.2f);
 		if(a<1){
 			Instantiate(pas1,spawnpoint.transform.position,spawnpoint.transform.rotation);
 		}

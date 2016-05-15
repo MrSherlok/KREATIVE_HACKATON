@@ -15,10 +15,21 @@ public class KalAttackScript : MonoBehaviour {
     {
         if (other.gameObject.tag == "god")
         {
+            ScoreScript.m3 = false;
             texxt.text = "You lose";
-            Time.timeScale = 0;
+            Application.LoadLevel("SS");
         }
-        else Destroy(gameObject);
+        else {
+            Destroy(gameObject);
+            BirdInstScript.kal++;
+        }
+        if (BirdInstScript.kal >= 20)
+        {
+            ScoreScript.m3 = true;
+            texxt.text = "You won";
+            Application.LoadLevel("SS");
+
+        }
 
     }
 

@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Draggable.cs" />
      <Compile Include="Assets\HumanLittering.cs" />
+     <Compile Include="Assets\Level.cs" />
      <Compile Include="Assets\Load1level.cs" />
      <Compile Include="Assets\Musordetector.cs" />
      <Compile Include="Assets\PasajirLogic.cs" />
@@ -63,8 +64,11 @@
      <Compile Include="Assets\Script\trash\DestroyScript.cs" />
      <Compile Include="Assets\Script\trash\HumanScript.cs" />
      <Compile Include="Assets\Script\trash\LitterScript.cs" />
+     <Compile Include="Assets\Script\trash\StartScript.cs" />
      <Compile Include="Assets\Script\trash\weaponScript.cs" />
+     <Compile Include="Assets\Selfdestroy.cs" />
      <Compile Include="Assets\Spawnpasajirs.cs" />
+     <Compile Include="Assets\Staton.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Games/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

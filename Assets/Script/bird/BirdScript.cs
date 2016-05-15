@@ -13,7 +13,7 @@ public class BirdScript : MonoBehaviour
     void Start()
     {
         t = Random.Range(0, 5);
-        s = Random.Range(4, 10);
+        s = Random.Range(14, 22)*10f;
         if (BirdInstScript._m == 0) {
             d = -1;
             gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f);
@@ -27,7 +27,7 @@ public class BirdScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector3 movement = new Vector3((speed.x+ s) * d, 0.3f*d, 0);
+        Vector3 movement = new Vector3((speed.x+ s) * d, 10*d, 0);
         movement *= Time.deltaTime;
         transform.Translate(movement);
 
