@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Spawnpasajirs : MonoBehaviour {
 	float a;
+	public static float scori;
 
 	public GameObject pas1;
 	public GameObject pas2;
@@ -22,6 +23,8 @@ public class Spawnpasajirs : MonoBehaviour {
 		}
 		if(a >3 && a<4){
 			Instantiate(pas4);
+
+
 		}
 	}
 

@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 005ed3bf53f92aa429daf2cc89ba42a9
+timeCreated: 1463275253
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mujik_0
+    21300002: mujik_1
+    21300004: mujik_2
+    21300006: mujik_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mujik_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 363
+        width: 62
+        height: 136
+      alignment: 9
+      pivot: {x: 0.621445, y: 0.85679424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.52959, y: 19.475983}
+        - {x: -38.52959, y: -6.5240173}
+        - {x: -38.52959, y: -47.524017}
+        - {x: -25.52959, y: -103.52402}
+        - {x: -10.529591, y: -116.52402}
+        - {x: 12.470409, y: -116.52402}
+        - {x: 23.47041, y: -101.52402}
+        - {x: 23.47041, y: 11.475983}
+        - {x: 17.47041, y: 19.475983}
+    - name: mujik_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 206
+        width: 274
+        height: 293
+      alignment: 9
+      pivot: {x: 0.56717396, y: 0.09453872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.59433, y: 256.30017}
+        - {x: 26.59433, y: 265.30017}
+        - {x: -26.40567, y: 265.30017}
+        - {x: -32.40567, y: 262.30017}
+        - {x: -15.40567, y: 170.30016}
+        - {x: -46.40567, y: 151.30016}
+        - {x: -151.40567, y: 22.300156}
+        - {x: -155.40567, y: 11.300156}
+        - {x: -155.40567, y: -16.699844}
+        - {x: -137.40567, y: -25.699844}
+        - {x: -53.40567, y: -14.699844}
+        - {x: -20.40567, y: -27.699844}
+        - {x: 75.59433, y: -27.699844}
+        - {x: 118.59433, y: 46.300156}
+        - {x: 118.59433, y: 98.300156}
+        - {x: 78.59433, y: 155.30016}
+    - name: mujik_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 95
+        height: 262
+      alignment: 9
+      pivot: {x: 0.6673243, y: 0.90873075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.39581, y: 23.912552}
+        - {x: -63.39581, y: -125.08745}
+        - {x: -63.39581, y: -235.08745}
+        - {x: -51.39581, y: -238.08745}
+        - {x: 27.60419, y: -238.08745}
+        - {x: 31.60419, y: -171.08745}
+        - {x: 31.60419, y: 23.912552}
+    - name: mujik_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 14
+        width: 75
+        height: 156
+      alignment: 9
+      pivot: {x: 0.6561694, y: 0.91294724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.212708, y: 13.580231}
+        - {x: -49.212708, y: -109.41977}
+        - {x: -49.212708, y: -138.41977}
+        - {x: -48.212708, y: -140.41977}
+        - {x: -45.212708, y: -142.41977}
+        - {x: 24.787292, y: -142.41977}
+        - {x: 25.787292, y: -131.41977}
+        - {x: 25.787292, y: 9.580231}
+        - {x: 22.787292, y: 13.580231}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
