@@ -9,6 +9,8 @@ public class Playermiss : MonoBehaviour {
 	public GameObject pas3;
 	public GameObject pas4;
 
+	float itsyoutime;
+
 	void Start(){
 		Spawn ();
 	}
@@ -31,7 +33,7 @@ public class Playermiss : MonoBehaviour {
 	public void Spawn () {
 
 
-		a = Random.Range(0f,5f);
+		a = Random.Range(0f,4f);
 		if(a<1){
 			Instantiate(pas1,spawnpoint.transform.position,spawnpoint.transform.rotation);
 		}

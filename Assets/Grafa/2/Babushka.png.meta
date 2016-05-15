@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: 0ea24d5b2fde8e048b20f3179507c23a
+timeCreated: 1463270883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Babushka_0
+    21300002: Babushka_1
+    21300004: Babushka_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Babushka_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 220
+        height: 435
+      alignment: 9
+      pivot: {x: 0.3546411, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.97896, y: -17.5}
+        - {x: 98.97896, y: -204.5}
+        - {x: 103.97896, y: -212.5}
+        - {x: 115.97896, y: -208.5}
+        - {x: 127.97896, y: -159.5}
+        - {x: 118.97896, y: -24.5}
+        - {x: 140.97896, y: -13.5}
+        - {x: 141.97896, y: -1.5}
+        - {x: 141.97896, y: 60.5}
+        - {x: 114.97896, y: 56.5}
+        - {x: 50.97896, y: 125.5}
+        - {x: 36.97896, y: 217.5}
+        - {x: -35.02104, y: 217.5}
+        - {x: -56.02104, y: 201.5}
+        - {x: -74.02104, y: 94.5}
+        - {x: -78.02104, y: 70.5}
+        - {x: -78.02104, y: -4.5}
+        - {x: -65.02104, y: -55.5}
+        - {x: -72.02104, y: -210.5}
+        - {x: -36.02104, y: -217.5}
+        - {x: 88.97896, y: -217.5}
+        - {x: 82.97896, y: -84.5}
+        - {x: 54.97896, y: -28.5}
+    - name: Babushka_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 8
+        width: 65
+        height: 54
+      alignment: 9
+      pivot: {x: 0.17632614, y: 0.8584389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.461199, y: -46.3557}
+        - {x: 53.538803, y: -46.3557}
+        - {x: 53.538803, y: -16.355701}
+        - {x: 36.538803, y: 7.6442986}
+        - {x: -11.461199, y: 7.6442986}
+        - {x: -11.461199, y: -43.3557}
+    - name: Babushka_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4
+        width: 61
+        height: 60
+      alignment: 9
+      pivot: {x: 0.27926534, y: 0.8646725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.035187, y: 8.119652}
+        - {x: -17.035187, y: -10.880348}
+        - {x: -17.035187, y: -48.88035}
+        - {x: -2.0351868, y: -51.88035}
+        - {x: 43.964813, y: -51.88035}
+        - {x: 43.964813, y: -20.880348}
+        - {x: 26.964813, y: 8.119652}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
