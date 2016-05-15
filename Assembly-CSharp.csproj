@@ -53,6 +53,12 @@
      <Compile Include="Assets\Playermiss.cs" />
      <Compile Include="Assets\SaveXML.cs" />
      <Compile Include="Assets\Script\GameButtonsScript.cs" />
+     <Compile Include="Assets\Script\ReloadScript.cs" />
+     <Compile Include="Assets\Script\ScoreScript.cs" />
+     <Compile Include="Assets\Script\bird\BirdInstScript.cs" />
+     <Compile Include="Assets\Script\bird\BirdScript.cs" />
+     <Compile Include="Assets\Script\bird\KalAttackScript.cs" />
+     <Compile Include="Assets\Script\bird\KalSootScript.cs" />
      <Compile Include="Assets\Script\trash\DestroyScript.cs" />
      <Compile Include="Assets\Script\trash\HumanScript.cs" />
      <Compile Include="Assets\Script\trash\LitterScript.cs" />
