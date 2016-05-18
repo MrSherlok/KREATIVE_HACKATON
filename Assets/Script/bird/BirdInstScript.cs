@@ -16,8 +16,8 @@ public class BirdInstScript : MonoBehaviour {
         if(time <= 0)
         {
             _m = Random.Range(0, 2);
-            poss.y = Random.Range(35f, 50f) * 10f;
-            if (_m == 0) poss.x = -60f; else poss.x = 1000f;
+            poss.y = Random.Range(25f, 45f) / 10f;
+            if (_m == 0) poss.x = -10f; else poss.x = 10f;
             Instantiate(birdPref, poss, Quaternion.identity);
             time = _t;
         }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour {
 
@@ -10,7 +11,7 @@ public class Level : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Next () {
-        Application.LoadLevel("03");
+		SceneManager.LoadScene("03");
 	
 	}
 }

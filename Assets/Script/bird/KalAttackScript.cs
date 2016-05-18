@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class KalAttackScript : MonoBehaviour {
     public Text texxt;
@@ -17,7 +18,7 @@ public class KalAttackScript : MonoBehaviour {
         {
             ScoreScript.m3 = false;
             texxt.text = "You lose";
-            Application.LoadLevel("SS");
+			SceneManager.LoadScene("SS");
         }
         else {
             Destroy(gameObject);
@@ -27,7 +28,7 @@ public class KalAttackScript : MonoBehaviour {
         {
             ScoreScript.m3 = true;
             texxt.text = "You won";
-            Application.LoadLevel("SS");
+			SceneManager.LoadScene("SS");
 
         }
 

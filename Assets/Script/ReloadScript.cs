@@ -7,7 +7,7 @@ public class ReloadScript : MonoBehaviour
 {
     public void Reload()
     {
-        SceneManager.LoadScene("01");
+        SceneManager.LoadScene("trash");
         Time.timeScale = 1;
         Musordetector.litterMiss = 0;
         Musordetector.litterDel = 0;

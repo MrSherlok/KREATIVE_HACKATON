@@ -55,7 +55,7 @@ public class GameButtonsScript : MonoBehaviour {
         _q = Random.Range(0, 3);
         Time.timeScale = 1;
         // Application.LoadLevel("0"+_q.ToString());
-        Application.LoadLevel("02");
+		SceneManager.LoadScene("Bus");
 
     }
 }

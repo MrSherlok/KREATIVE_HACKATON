@@ -20,8 +20,8 @@ public class LitterScript : MonoBehaviour {
             if (HumanScript.m <= 0.6f) rb.velocity += Random.Range(10f, strenghUp) * Vector2.up;
             else rb.velocity += Random.Range(5f, strenghUp-5f) * Vector2.up;
         
-			if ((HumanScript.n <= -3) || (HumanScript.n>=3)) rb.velocity += Random.Range(5f, strenghSide) * Vector2.right;
-        else rb.velocity += Random.Range(5f, strenghSide) * Vector2.left;
+			if ((HumanScript.n <= -3) || (HumanScript.n>=3)) rb.velocity += Random.Range(5f, strenghSide-2f) * Vector2.right;
+        else rb.velocity += Random.Range(5f, strenghSide-2f) * Vector2.left;
 		}
     }
 

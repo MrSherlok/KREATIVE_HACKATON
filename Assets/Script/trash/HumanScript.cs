@@ -12,12 +12,15 @@ public class HumanScript : MonoBehaviour {
     public static float m;
     int lit;
     int litt;
-    float time = 0;
+	float time;
     public float speed = 0.3f;
     public int countLitter = 4;
     int i = 1;
     Vector3 _currentPosition;
 
+	void Start () {
+		time = speed;
+	}
 
     void FixedUpdate()
     {
