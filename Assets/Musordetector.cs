@@ -5,6 +5,8 @@ public class Musordetector : MonoBehaviour {
     GameObject musor;
     public static int litterDel = 0;
     public static int litterMiss = 0;
+	//public AudioClip pusll;
+
 
 
 
@@ -13,9 +15,16 @@ public class Musordetector : MonoBehaviour {
        if (mus.gameObject.tag == "Musor") {
             Debug.Log("wsef");
             musor = mus.gameObject;
-            Destroy(musor);
+//			gameObject.GetComponent<AudioSource> ().Play (pusll);
+
+
             litterDel++;
+			Invoke ("MusDel", 0.3f);
          }
     }
+
+	void MusDel() {
+		Destroy(musor);
+	}
 
 }

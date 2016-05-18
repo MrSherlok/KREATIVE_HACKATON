@@ -27,7 +27,7 @@ public class HumanScript : MonoBehaviour {
         }
         if ((countLitter > 0) && (time <= 0)) { 
         {
-                n = Random.Range(16f, 80f);
+                n = Random.Range(-7f, 7f);
                 while (litt == lit)
                 {
                     lit = Random.Range(1, 4);
@@ -35,17 +35,17 @@ public class HumanScript : MonoBehaviour {
                 litt = lit;
                 if (gameObject.tag == "h1")
                 {
-                    m = 1;                 
-                    if (n <= 45) gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f);
+                    m = 100;                 
+                    if (n <= 0) gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f);
                     else gameObject.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-                    gameObject.transform.position = new Vector3(n * 10f, pos.y, pos.z);
+                    gameObject.transform.position = new Vector3(n, pos.y, pos.z);
                 }
                 if (gameObject.tag == "h2")
                 {
-                    m = Random.Range(13f, 33f);
-                    if (n <= 45) { gameObject.transform.eulerAngles = new Vector3(0f, 0f, 0f); pos.x = 125f; }
-                    else { gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f); pos.x = 820f; }
-                    gameObject.transform.position = new Vector3(pos.x, m*10f, pos.z);
+                    m = Random.Range(-2f, 2f);
+					if ((n <= -3) || (n>=3)) { gameObject.transform.eulerAngles = new Vector3(0f, 0f, 0f); pos.x = -7f; }
+                    else { gameObject.transform.eulerAngles = new Vector3(0f, 180f, 0f); pos.x = 7f; }
+                    gameObject.transform.position = new Vector3(pos.x, m, pos.z);
 
                 }
                 _currentPosition = weapPoint.transform.position;

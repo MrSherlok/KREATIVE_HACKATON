@@ -11,16 +11,18 @@ public class LitterScript : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
                 
-        if (HumanScript.m == 1)
+        if (HumanScript.m == 100)
         {
-            rb.velocity += Random.Range(300f, strenghUp) * Vector2.up;
+            rb.velocity += Random.Range(10f, strenghUp) * Vector2.up;
+			if ( HumanScript.n<=0) rb.velocity += Random.Range(5f, strenghSide) * Vector2.right;
+			else rb.velocity += Random.Range(5f, strenghSide) * Vector2.left;
         } else {
-            if (HumanScript.m <= 22) rb.velocity += Random.Range(300f, strenghUp) * Vector2.up;
-            else rb.velocity += Random.Range(300f, strenghUp-150f) * Vector2.up;
-        }
-        if (HumanScript.n <= 45) rb.velocity += Random.Range(100f, strenghSide) * Vector2.right;
-        else rb.velocity += Random.Range(150f, strenghSide) * Vector2.left;
-
+            if (HumanScript.m <= 0.6f) rb.velocity += Random.Range(10f, strenghUp) * Vector2.up;
+            else rb.velocity += Random.Range(5f, strenghUp-5f) * Vector2.up;
+        
+			if ((HumanScript.n <= -3) || (HumanScript.n>=3)) rb.velocity += Random.Range(5f, strenghSide) * Vector2.right;
+        else rb.velocity += Random.Range(5f, strenghSide) * Vector2.left;
+		}
     }
 
 }
