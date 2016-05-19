@@ -14,6 +14,7 @@ public class Playermiss : MonoBehaviour {
 	public Image UIButt;
 
 	float itsyoutime;
+	float randomizer;
 
 	void Start(){
 		Time.timeScale = 1f;
@@ -26,7 +27,9 @@ public class Playermiss : MonoBehaviour {
 
 			Debug.Log ("Nice");
 			Destroy (end.gameObject);
-			Spawn ();
+			randomizer = Random.Range (0f,0.5f);
+			Invoke("Spawn",randomizer );
+
 		}
 		if (end.tag == "Babka") {
 
@@ -35,6 +38,7 @@ public class Playermiss : MonoBehaviour {
             ScoreScript.mainScore += 0;
             ScoreScript.m2 = false;
 			SceneManager.LoadScene("SadScene");
+		
         }
 	}
 	public void Spawn () {
@@ -56,7 +60,7 @@ public class Playermiss : MonoBehaviour {
 		if(a>2.8){
 			Instantiate(pas4,spawnpoint.position,spawnpoint.rotation);
 		}
-		Debug.Log(a);
+
 	}
 
 }

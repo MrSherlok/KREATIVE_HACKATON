@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: b049ecc8ddd8cd1478bbba2604ef18d2
+timeCreated: 1463669385
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rj2F5HYziUU_0
+    21300002: Rj2F5HYziUU_1
+    21300004: Rj2F5HYziUU_2
+    21300006: Rj2F5HYziUU_3
+    21300008: Rj2F5HYziUU_4
+    21300010: Rj2F5HYziUU_5
+    21300012: Rj2F5HYziUU_6
+    21300014: Rj2F5HYziUU_7
+    21300016: Rj2F5HYziUU_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rj2F5HYziUU_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 214
+        width: 95
+        height: 285
+      alignment: 9
+      pivot: {x: 0.5265753, y: 0.124992825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.024654, y: 249.37704}
+        - {x: -50.024654, y: 242.37704}
+        - {x: -50.024654, y: 90.377045}
+        - {x: -43.024654, y: -4.6229553}
+        - {x: 10.975346, y: -35.622955}
+        - {x: 44.975346, y: -35.622955}
+        - {x: 44.975346, y: 237.37704}
+        - {x: 32.975346, y: 249.37704}
+    - name: Rj2F5HYziUU_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 413
+        width: 28
+        height: 68
+      alignment: 9
+      pivot: {x: 0.46994454, y: 0.8836486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rj2F5HYziUU_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 465
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rj2F5HYziUU_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 140
+        width: 50
+        height: 135
+      alignment: 9
+      pivot: {x: 0.4999997, y: 0.8927244}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.999985, y: 14.482208}
+        - {x: -24.999985, y: -87.51779}
+        - {x: -15.999985, y: -120.51779}
+        - {x: 25.000015, y: -120.51779}
+        - {x: 25.000015, y: 11.482208}
+        - {x: 11.000015, y: 14.482208}
+    - name: Rj2F5HYziUU_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 147
+        width: 47
+        height: 119
+      alignment: 9
+      pivot: {x: 0.48209494, y: 0.8253058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.341537, y: 18.788605}
+        - {x: 19.341537, y: 20.788605}
+        - {x: -8.658463, y: 20.788605}
+        - {x: -22.658463, y: 2.7886047}
+        - {x: -22.658463, y: -76.211395}
+        - {x: -18.658463, y: -96.211395}
+        - {x: 18.341537, y: -96.211395}
+        - {x: 19.341537, y: -88.211395}
+        - {x: 20.341537, y: -66.211395}
+        - {x: 21.341537, y: -41.211395}
+    - name: Rj2F5HYziUU_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 85
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -32}
+        - {x: 7.5, y: -32}
+        - {x: 20.5, y: -20}
+        - {x: 20.5, y: 27}
+        - {x: 14.5, y: 32}
+        - {x: -20.5, y: 32}
+    - name: Rj2F5HYziUU_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 85
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 33}
+        - {x: -21, y: 22}
+        - {x: -23, y: 8}
+        - {x: -23, y: -21}
+        - {x: -20, y: -33}
+        - {x: 1, y: -33}
+        - {x: 23, y: 0}
+        - {x: 23, y: 25}
+        - {x: 17, y: 33}
+    - name: Rj2F5HYziUU_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 34
+        width: 34
+        height: 99
+      alignment: 9
+      pivot: {x: 0.4257458, y: 0.9250264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.475357, y: 7.422386}
+        - {x: -14.475357, y: -61.577614}
+        - {x: -12.475357, y: -87.577614}
+        - {x: -7.475357, y: -91.577614}
+        - {x: 19.524643, y: -91.577614}
+        - {x: 19.524643, y: 7.422386}
+    - name: Rj2F5HYziUU_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 20
+        width: 41
+        height: 120
+      alignment: 9
+      pivot: {x: 0.541051, y: 0.88571155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.18309, y: 13.714615}
+        - {x: -19.18309, y: 11.714615}
+        - {x: -19.18309, y: -106.285385}
+        - {x: 10.81691, y: -106.285385}
+        - {x: 15.81691, y: -100.285385}
+        - {x: 18.81691, y: -68.285385}
+        - {x: 18.81691, y: 13.714615}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
