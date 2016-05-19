@@ -25,4 +25,8 @@ public class LitterScript : MonoBehaviour {
 		}
     }
 
+	void Update () {
+		gameObject.transform.Rotate(new Vector3 (0, 0, Random.Range(400,800)) * Time.deltaTime,Space.Self);
+	}
+
 }

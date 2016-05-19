@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Playermiss : MonoBehaviour {
 	public static float a =0.0f;
+	public float inv;
 	public Transform spawnpoint;
 	public GameObject pas1;
 	public GameObject pas2;
@@ -15,8 +16,9 @@ public class Playermiss : MonoBehaviour {
 	float itsyoutime;
 
 	void Start(){
+		Time.timeScale = 1f;
 		UIButt.enabled = false;
-		Invoke("Spawn",1.5f);
+		Invoke("Spawn",inv);
 	}
 	void OnTriggerEnter2D(Collider2D end)
 	{
@@ -32,27 +34,28 @@ public class Playermiss : MonoBehaviour {
             Debug.Log("You Lose");
             ScoreScript.mainScore += 0;
             ScoreScript.m2 = false;
-			SceneManager.LoadScene("SadScene");
-
-
-
+		//	SceneManager.LoadScene("SadScene");
+			Spawn ();
         }
 	}
 	public void Spawn () {
 
 		UIButt.enabled = true;
 		a = Random.Range(0f,3.2f);
-		if(a<1){
-			Instantiate(pas1,spawnpoint.transform.position,spawnpoint.transform.rotation);
+		if (gameObject.name == "target1")
+			PasajirLogic.dirPas = -1f;
+		else PasajirLogic.dirPas = 1f;
+		if(a<=1){
+			Instantiate(pas1,spawnpoint.position,spawnpoint.rotation);
 		}
-		if(a>1 && a<2){
-			Instantiate(pas2,spawnpoint.transform.position,spawnpoint.transform.rotation);
+		if(a>1 && a<=2){
+			Instantiate(pas2,spawnpoint.position,spawnpoint.rotation);
 		}
-		if(a>2 && a<2.4){
-			Instantiate(pas3,spawnpoint.transform.position,spawnpoint.transform.rotation);
+		if(a>2 && a<=2.8){
+			Instantiate(pas3,spawnpoint.position,spawnpoint.rotation);
 		}
-		if(a>2.4){
-			Instantiate(pas4,spawnpoint.transform.position,spawnpoint.transform.rotation);
+		if(a>2.8){
+			Instantiate(pas4,spawnpoint.position,spawnpoint.rotation);
 		}
 		Debug.Log(a);
 	}

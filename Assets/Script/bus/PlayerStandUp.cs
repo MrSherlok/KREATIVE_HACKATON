@@ -3,19 +3,18 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class PlayerStandUp : MonoBehaviour {
-	public float z;
 	int score;
 	Animator ani;
-	public GameObject obj;
+	bool babkaOnMe = false;
 	// Use this for initialization
 	void Start(){
-		ani = obj.GetComponent<Animator> ();
+		ani = gameObject.GetComponent<Animator> ();
 	}
 	public void StandUp () {
 		ani.SetTrigger ("StandUp");
 		
 		Debug.Log ("I STAND UP!");
-		if (z > 2.4) {
+		if (babkaOnMe == true) {
 			Debug.Log (" You Won");
             
 			score = 100;
@@ -23,16 +22,23 @@ public class PlayerStandUp : MonoBehaviour {
             ScoreScript.m2 = true;
 			SceneManager.LoadScene("GoodScene");
         }
-		if (z < 2.4) {
+		if (babkaOnMe == false) {
 			Debug.Log ("You Lose");
 			ScoreScript.mainScore += 0;
             ScoreScript.m2 = false;
 			SceneManager.LoadScene("SadScene");
         }
 	}
-	void Update(){
-		z = Playermiss.a;
+
+
+	void OnTriggerEnter2D (Collider2D other) {
+		if (other.tag == "Babka")
+			babkaOnMe = true;
 	}
-	
+
+	void OnTriggerExit2D (Collider2D other) {
+		if (other.tag == "Babka")
+			babkaOnMe = false;
+	}
 
 }

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Script\bus\PlayerStandUp.cs" />
      <Compile Include="Assets\Script\bus\Playermiss.cs" />
      <Compile Include="Assets\Script\bus\Spawnpasajirs.cs" />
+     <Compile Include="Assets\Script\fpsScript.cs" />
      <Compile Include="Assets\Script\trash\DestroyScript.cs" />
      <Compile Include="Assets\Script\trash\HumanScript.cs" />
      <Compile Include="Assets\Script\trash\LateStartScript.cs" />
