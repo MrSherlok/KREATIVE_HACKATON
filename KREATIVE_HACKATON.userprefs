@@ -1,15 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/trash/HumanScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/fpsScript.cs">
     <Files>
-      <File FileName="Assets/Script/bird/KalSootScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/bird/BirdScript.cs" Line="16" Column="27" />
-      <File FileName="Assets/Script/bird/BirdInstScript.cs" Line="23" Column="10" />
-      <File FileName="Assets/Load1level.cs" Line="8" Column="32" />
-      <File FileName="Assets/Script/bus/Playermiss.cs" Line="19" Column="22" />
-      <File FileName="Assets/Script/trash/LitterScript.cs" Line="23" Column="99" />
-      <File FileName="Assets/Script/trash/LateStartScript.cs" Line="9" Column="24" />
-      <File FileName="Assets/Script/trash/HumanScript.cs" Line="22" Column="16" />
+      <File FileName="Assets/Script/fpsScript.cs" Line="18" Column="10" />
+      <File FileName="Assets/Script/GameButtonsScript.cs" Line="43" Column="42" />
+      <File FileName="Assets/Script/trash/LitterScript.cs" Line="20" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
