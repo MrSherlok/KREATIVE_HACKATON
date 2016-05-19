@@ -34,8 +34,7 @@ public class Playermiss : MonoBehaviour {
             Debug.Log("You Lose");
             ScoreScript.mainScore += 0;
             ScoreScript.m2 = false;
-		//	SceneManager.LoadScene("SadScene");
-			Spawn ();
+			SceneManager.LoadScene("SadScene");
         }
 	}
 	public void Spawn () {
