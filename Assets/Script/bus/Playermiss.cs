@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Playermiss : MonoBehaviour {
-	public static float a =0.0f;
+	public float a =0.0f;
 	public float inv;
 	public Transform spawnpoint;
 	public GameObject pas1;
@@ -13,23 +13,45 @@ public class Playermiss : MonoBehaviour {
 	public GameObject pas4;
 	public Image UIButt;
 
-	float itsyoutime;
-	float randomizer;
+//	float randomizer;
+	float timeBus = 1.5f;
 
 	void Start(){
 		Time.timeScale = 1f;
 		UIButt.enabled = false;
-		Invoke("Spawn",inv);
 	}
+
+	void Update () {
+		timeBus -= Time.deltaTime;
+		if (timeBus <= 0f) {
+			timeBus = Random.Range (1.5f, 2.5f);
+			UIButt.enabled = true;
+			a = Random.Range(0f,3.2f);
+			if (gameObject.name == "target1")
+				PasajirLogic.dirPas = -1f;
+			else PasajirLogic.dirPas = 1f;
+			if(a<=1){
+				Instantiate(pas1,spawnpoint.position,spawnpoint.rotation);
+			}
+			if(a>1 && a<=2){
+				Instantiate(pas2,spawnpoint.position,spawnpoint.rotation);
+			}
+			if(a>2 && a<=2.8){
+				Instantiate(pas3,spawnpoint.position,spawnpoint.rotation);
+			}
+			if(a>2.8){
+				Instantiate(pas4,spawnpoint.position,spawnpoint.rotation);
+			}
+		}
+	}
+
+
 	void OnTriggerEnter2D(Collider2D end)
 	{
 		if (end.tag == "Pasajir") {
 
 			Debug.Log ("Nice");
 			Destroy (end.gameObject);
-			randomizer = Random.Range (0f,0.5f);
-			Invoke("Spawn",randomizer );
-
 		}
 		if (end.tag == "Babka") {
 
@@ -41,26 +63,4 @@ public class Playermiss : MonoBehaviour {
 		
         }
 	}
-	public void Spawn () {
-
-		UIButt.enabled = true;
-		a = Random.Range(0f,3.2f);
-		if (gameObject.name == "target1")
-			PasajirLogic.dirPas = -1f;
-		else PasajirLogic.dirPas = 1f;
-		if(a<=1){
-			Instantiate(pas1,spawnpoint.position,spawnpoint.rotation);
-		}
-		if(a>1 && a<=2){
-			Instantiate(pas2,spawnpoint.position,spawnpoint.rotation);
-		}
-		if(a>2 && a<=2.8){
-			Instantiate(pas3,spawnpoint.position,spawnpoint.rotation);
-		}
-		if(a>2.8){
-			Instantiate(pas4,spawnpoint.position,spawnpoint.rotation);
-		}
-
-	}
-
 }
