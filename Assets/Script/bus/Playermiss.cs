@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class Playermiss : MonoBehaviour {
-	public float a =0.0f;
+	public float a = 0.0f;
 	public float inv;
 	public Transform spawnpoint;
 	public GameObject pas1;
@@ -14,17 +14,18 @@ public class Playermiss : MonoBehaviour {
 	public Image UIButt;
 
 //	float randomizer;
-	float timeBus = 1.5f;
+	float timeBus;
 
 	void Start(){
-		Time.timeScale = 1f;
+		Time.timeScale = 0.5f;
 		UIButt.enabled = false;
+		timeBus = Random.Range (2f, 3f);
 	}
 
 	void Update () {
 		timeBus -= Time.deltaTime;
 		if (timeBus <= 0f) {
-			timeBus = Random.Range (1.5f, 2.5f);
+			timeBus = Random.Range (1f, 2f);
 			UIButt.enabled = true;
 			a = Random.Range(0f,3.2f);
 			if (gameObject.name == "target1")
