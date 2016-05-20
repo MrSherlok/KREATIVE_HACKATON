@@ -9,7 +9,7 @@ public class DestroyScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Destroy(gameObject, destTime);
+       Destroy(gameObject, destTime);
     }
 
 

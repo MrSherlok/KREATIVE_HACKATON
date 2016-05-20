@@ -52,9 +52,15 @@ public class HumanScript : MonoBehaviour {
 
                 }
                 _currentPosition = weapPoint.transform.position;
-                if(lit == 1) Instantiate(trash1, _currentPosition, Quaternion.identity);
-                if (lit == 2) Instantiate(trash2, _currentPosition, Quaternion.identity);
-                if (lit == 3) Instantiate(trash3, _currentPosition, Quaternion.identity);
+				if (lit == 1) {
+					Instantiate(trash1, _currentPosition,Quaternion.identity);
+				}
+				if (lit == 2) {
+					Instantiate(trash2, _currentPosition,Quaternion.identity);
+				}
+				if (lit == 3) {
+					Instantiate(trash3, _currentPosition,Quaternion.identity);
+				}
                 countLitter--;
                 time = speed;
 

@@ -17,8 +17,7 @@ public class Musordetector : MonoBehaviour {
             musor = mus.gameObject;
 //			gameObject.GetComponent<AudioSource> ().Play (pusll);
 
-
-            litterDel++;
+			litterDel++;
 			Destroy(musor);
          }
     }
