@@ -32,17 +32,17 @@ public class GameButtonsScript : MonoBehaviour {
 			//Instantiate (nextstage);
 		}
 
-        if (Musordetector.litterDel >= 5000)
+        if (Musordetector.litterDel >= 30)
         {
-            lvl1Score.text = "You are won"; 
+            lvl1Score.text = "Nise shot!"; 
             ScoreScript.mainScore += 100;
             ScoreScript.m1 = true;
             Invoke("Load", 0.5f);
         }
         lvl2Score.text = "Score miss: " + Musordetector.litterMiss.ToString();
-        if (Musordetector.litterMiss >= 500)
+        if (Musordetector.litterMiss >= 5)
         {
-            lvl2Score.text = "You are dead";
+            lvl2Score.text = "Misser!";
             ScoreScript.m1 = false;
             Invoke("Load", 0.5f);
             
